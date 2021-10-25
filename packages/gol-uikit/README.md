@@ -1,8 +1,7 @@
-# 🥞 Pancake UIkit
+# 🥞 Gol Finance UIkit
 
-[![Version](https://img.shields.io/npm/v/@pancakeswap-libs/uikit)](https://www.npmjs.com/package/@pancakeswap-libs/uikit) [![Size](https://img.shields.io/bundlephobia/min/@pancakeswap-libs/uikit)](https://www.npmjs.com/package/@pancakeswap-libs/uikit)
 
-Pancake UIkit is a set of React components and hooks used to build pages on Pancake's apps. It also contains a theme file for dark and light mode.
+Gol Finance UIkit is a set of React components and hooks used to build pages on Pancake's apps. It also contains a theme file for dark and light mode.
 
 ## Install
 
@@ -34,7 +33,3 @@ import { ResetCSS } from '@pancakeswap-libs/uikit'
 ### Types
 
 This project is built with Typescript and export all the relevant types.
-
-## How to use the UIkit
-
-If you want to use components from the UIkit, check the [Storybook documentation](https://pancakeswap.github.io/pancake-uikit/)
