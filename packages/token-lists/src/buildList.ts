@@ -25,7 +25,7 @@ type Version = {
 const lists = {
   "pancakeswap-default": {
     list: pancakeswapDefault,
-    name: "PancakeSwap Default",
+    name: "GolSwap Default",
     keywords: ["pancakeswap", "default"],
     logoURI:
       "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82/logo.png",
@@ -34,7 +34,7 @@ const lists = {
   },
   "pancakeswap-extended": {
     list: pancakeswapExtended,
-    name: "PancakeSwap Extended",
+    name: "GolSwap Extended",
     keywords: ["pancakeswap", "extended"],
     logoURI:
       "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82/logo.png",
@@ -43,7 +43,7 @@ const lists = {
   },
   "pancakeswap-top-100": {
     list: pancakeswapTop100,
-    name: "PancakeSwap Top 100",
+    name: "GolSwap Top 100",
     keywords: ["pancakeswap", "top 100"],
     logoURI:
       "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82/logo.png",
@@ -52,7 +52,7 @@ const lists = {
   },
   "pancakeswap-top-15": {
     list: pancakeswapTop15,
-    name: "PancakeSwap Top 15",
+    name: "GolSwap Top 15",
     keywords: ["pancakeswap", "top 15"],
     logoURI:
       "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82/logo.png",
@@ -87,9 +87,9 @@ export const buildList = (listName: string, versionBump?: VersionBump): TokenLis
     tokens: sort
       ? list.sort((t1, t2) => {
           if (t1.chainId === t2.chainId) {
-            // CAKE first in extended list
-            if ((t1.symbol === "CAKE") !== (t2.symbol === "CAKE")) {
-              return t1.symbol === "CAKE" ? -1 : 1;
+            // GOL first in extended list
+            if ((t1.symbol === "GOL") !== (t2.symbol === "GOL")) {
+              return t1.symbol === "GOL" ? -1 : 1;
             }
             return t1.symbol.toLowerCase() < t2.symbol.toLowerCase() ? -1 : 1;
           }
