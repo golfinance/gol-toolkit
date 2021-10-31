@@ -2,6 +2,15 @@
  * @see https://github.com/pancakeswap/pancake-frontend/blob/develop/src/config/constants/tokens.ts
  */
 const tokens = {
+  gol: {
+    symbol: "GOL",
+    address: {
+      56: "0x52f6a03a53840c01470f33a0b016e4c3e3dfe796",
+      97: "0xa35062141Fa33BCA92Ce69FeD37D0E8908868AAe",
+    },
+    decimals: 18,
+    projectLink: "https://gol.finance/",
+  },
   cake: {
     symbol: "CAKE",
     address: {
