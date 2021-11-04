@@ -80,7 +80,7 @@ const ConnectModal: React.FC<Props> = ({ login, onDismiss = () => null, displayC
           </Text>
           <Button
             as="a"
-            href="https://docs.pancakeswap.finance/get-started/connection-guide"
+            href="https://golfinance.gitbook.io/golfinance/about-golfinance/get-started/connect-your-wallet-to-golfinance"
             variant="subtle"
             width="100%"
             {...getExternalLinkProps()}

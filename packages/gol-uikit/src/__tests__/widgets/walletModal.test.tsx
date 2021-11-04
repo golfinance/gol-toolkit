@@ -655,7 +655,7 @@ it("renders ConnectModal correctly", () => {
             </p>
             <a
               class="c22"
-              href="https://docs.pancakeswap.finance/get-started/connection-guide"
+              href="https://golfinance.gitbook.io/golfinance/about-golfinance/get-started/connect-your-wallet-to-golfinance"
               rel="noreferrer noopener"
               scale="md"
               target="_blank"
