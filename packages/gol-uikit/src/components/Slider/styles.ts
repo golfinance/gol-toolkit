@@ -1,9 +1,10 @@
 import { InputHTMLAttributes } from "react";
 import styled from "styled-components";
 import Text from "../Text/Text";
-import bunnyHeadMain from "./svg/bunnyhead-main.svg";
-import bunnyHeadMax from "./svg/bunnyhead-max.svg";
-import bunnyButt from "./svg/bunnybutt.svg";
+// import bunnyHeadMain from "./svg/bunnyhead-main.svg";
+// import bunnyHeadMax from "./svg/bunnyhead-max.svg";
+// import bunnyButt from "./svg/bunnybutt.svg";
+import footBall from "./svg/football.svg"
 
 interface SliderLabelProps {
   progress: string;
@@ -23,7 +24,7 @@ const getCursorStyle = ({ disabled = false }: DisabledProp) => {
 
 const getBaseThumbStyles = ({ isMax, disabled }: StyledInputProps) => `
   -webkit-appearance: none;
-  background-image: url(${isMax ? bunnyHeadMax : bunnyHeadMain});
+  background-image: url(${isMax ? footBall : footBall});
   background-color: transparent;
   border: 0;
   cursor: ${getCursorStyle};
@@ -55,7 +56,7 @@ export const SliderLabel = styled(Text)<SliderLabelProps>`
 `;
 
 export const BunnyButt = styled.div<DisabledProp>`
-  background: url(${bunnyButt}) no-repeat;
+  background: url(${footBall}) no-repeat;
   height: 32px;
   filter: ${({ disabled }) => (disabled ? "grayscale(100%)" : "none")};
   position: absolute;
