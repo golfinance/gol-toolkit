@@ -7,26 +7,26 @@ export const footerLinks: FooterLinkType[] = [
     items: [
       {
         label: "Contact",
-        href: "https://docs.pancakeswap.finance/contact-us",
+        href: "https://docs.golfinance.io/contact-us",
       },
       {
         label: "Blog",
-        href: "https://pancakeswap.medium.com/",
+        href: "https://golfinance.medium.com/",
       },
       {
         label: "Community",
-        href: "https://docs.pancakeswap.finance/contact-us/telegram",
+        href: "https://docs.golfinance.io/contact-us/telegram",
       },
       {
         label: "CAKE",
-        href: "https://docs.pancakeswap.finance/tokenomics/cake",
+        href: "https://docs.golfinance.io/tokenomics/cake",
       },
       {
         label: "—",
       },
       {
         label: "Online Store",
-        href: "https://pancakeswap.creator-spring.com/",
+        href: "https://golfinance.creator-spring.com/",
         isHighlighted: true,
       },
     ],
@@ -36,15 +36,15 @@ export const footerLinks: FooterLinkType[] = [
     items: [
       {
         label: "Customer",
-        href: "Support https://docs.pancakeswap.finance/contact-us/customer-support",
+        href: "Support https://docs.golfinance.finance/contact-us/customer-support",
       },
       {
         label: "Troubleshooting",
-        href: "https://docs.pancakeswap.finance/help/troubleshooting",
+        href: "https://docs.golfinance.io/help/troubleshooting",
       },
       {
         label: "Guides",
-        href: "https://docs.pancakeswap.finance/get-started",
+        href: "https://docs.golfinance.io/get-started",
       },
     ],
   },
@@ -53,23 +53,23 @@ export const footerLinks: FooterLinkType[] = [
     items: [
       {
         label: "Github",
-        href: "https://github.com/pancakeswap",
+        href: "https://github.com/golfinance",
       },
       {
         label: "Documentation",
-        href: "https://docs.pancakeswap.finance",
+        href: "https://docs.golfinance.io",
       },
       {
         label: "Bug Bounty",
-        href: "https://app.gitbook.com/@pancakeswap-1/s/pancakeswap/code/bug-bounty",
+        href: "https://app.gitbook.com/@golfinance-1/s/golfinance/code/bug-bounty",
       },
       {
         label: "Audits",
-        href: "https://docs.pancakeswap.finance/help/faq#is-pancakeswap-safe-has-pancakeswap-been-audited",
+        href: "https://docs.golfinance.io/help/faq#is-golfinance-safe-has-golfinance-been-audited",
       },
       {
         label: "Careers",
-        href: "https://docs.pancakeswap.finance/hiring/become-a-chef",
+        href: "https://docs.golfinance.io/hiring/become-a-chef",
       },
     ],
   },
@@ -131,7 +131,7 @@ export const socials = [
       // },
       {
         label: "Announcements",
-        href: "https://t.me/GolswapAnn",
+        href: "https://t.me/golfinance_channel",
       },
       // {
       //   label: "Whale Alert",
